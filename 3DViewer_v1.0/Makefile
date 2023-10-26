@@ -1,13 +1,13 @@
 UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
 CXX_COMPILER = -D CMAKE_CXX_COMPILER=clang++
-APP_OPEN = @open buildRelease/viewer.app
+APP_OPEN = @open buildRelease/s21_viewer.app
 BROWSER_OPENER = @open
 endif
 
 ifeq ($(UNAME), Linux)
 CXX_COMPILER = 
-APP_OPEN = ./buildRelease/viewer
+APP_OPEN = ./buildRelease/s21_viewer
 BROWSER_OPENER = @x-www-browser
 endif
 
