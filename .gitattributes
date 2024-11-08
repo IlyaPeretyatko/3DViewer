@@ -1,0 +1,5 @@
+src/Model/include/enums.h linguist-language=C++
+src/dependencies/giflib/*.h linguist-language=C++
+src/dependencies/giflib/*.c linguist-language=C++
+src/dependencies/gifimage/*.h linguist-language=C++
+src/dependencies/gifimage/*.c linguist-language=C++
